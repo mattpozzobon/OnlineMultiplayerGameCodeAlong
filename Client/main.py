@@ -6,7 +6,6 @@ def main():
     while config.running:
         events()
 
-
         config.pygame.display.update()
 
 
