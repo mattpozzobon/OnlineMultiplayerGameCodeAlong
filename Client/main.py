@@ -1,11 +1,12 @@
 import config
+from Client.screens import screens
 from Client.events import events
 
 
 def main():
     while config.running:
         events()
-        config.pygame.display.update()
+        screens()
 
 
 if __name__ == '__main__':

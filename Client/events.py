@@ -7,3 +7,12 @@ def events():
             if event.key == config.pygame.K_ESCAPE:
                 config.running = False
 
+            if event.key == config.pygame.K_UP:
+                config.angle += 0.2
+                print(config.angle)
+
+            if event.key == config.pygame.K_DOWN:
+                config.angle -= 0.2
+                print(config.angle)
+
+
